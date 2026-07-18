@@ -13,3 +13,10 @@ your own mail app with a pre-addressed draft — nothing is ever sent without
 you pressing send yourself.
 
 Questions: bowmanseanp@gmail.com
+
+## Support
+
+CBDR is an offline training tool and has no server component. For questions,
+problems, or feedback about the app, email **bowmanseanp@gmail.com** — or use
+the feedback button inside the app, which opens a pre-addressed draft in your
+own mail app.
