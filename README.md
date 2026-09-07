@@ -26,6 +26,9 @@ is exactly what it does hold and where it goes.
   ends the test.
 - **Tide and current predictions you save** in the Tides & Currents tool,
   kept for offline use.
+- **Quick Access**: the names of the last three activities you opened, so
+  they are one tap away on the home screen. Three activity names and nothing
+  else — no times, no counts, no session history.
 
 All of this is kept in the app's own storage on your device and is removed
 when you delete the app.
@@ -72,9 +75,13 @@ or require anything in particular.
 - **Microphone and speech recognition** are used only when you choose to speak
   a contact report. Recognition runs on-device; the audio never leaves your
   phone and is not retained after the report is scored.
-- **The camera** is used only to scan a QR code shown on another participant's
-  screen. No image is stored, and nothing is scanned unless you open the
-  scanner.
+- **The camera** is used in two places, both started by you: scanning a QR
+  code shown on another participant's screen, and the Star Finder, which
+  looks at the night sky to name navigational stars. In both, frames are
+  processed on the device and immediately discarded — no image is ever
+  stored, and nothing the camera sees leaves the phone. The Star Finder
+  never asks where you are: it reads the pattern of the stars, which is the
+  same from everywhere on Earth.
 
 ## Feedback
 
@@ -85,4 +92,4 @@ Nothing is ever sent unless you press send yourself.
 
 bowmanseanp@gmail.com
 
-*Last updated: 12 August 2026.*
+*Last updated: 7 September 2026.*
