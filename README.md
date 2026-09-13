@@ -4,8 +4,8 @@
 accounts, no analytics, no advertising, no tracking, and no server — the
 developer receives nothing at all. One feature uses the internet: the Tides &
 Currents lookup asks NOAA (US) and CHS (Canada) directly for public tide and
-current predictions, and is described in its own section below. Every other
-feature works entirely offline on your device and never touches the network.
+current predictions, and is described in its own section below. All training features work offline on your device. An optional App Store
+rating is handled by Apple, as described below.
 
 That is not the same as saying the app holds no personal information, so here
 is exactly what it does hold and where it goes.
@@ -34,13 +34,17 @@ is exactly what it does hold and where it goes.
   opened — three activity names and nothing else, no times, no counts and no
   session history.
 
+- **Rating prompt timing**: the date this timing record began, the last day
+  counted, a count capped at five days of use, and the date of the last rating
+  request. This only spaces out prompts; it records no activities or scores.
+
 All of this is kept in the app's own storage on your device and is removed
 when you delete the app.
 
 ## The Tides & Currents lookup
 
 Looking up live tide and current predictions needs an internet connection —
-it is the only part of CBDR that does. Everything it fetches can be saved on
+it is the only training tool in CBDR that does. Everything it fetches can be saved on
 your device, and saved data works offline like the rest of the app.
 
 A lookup is a direct request from your device to the government service that
@@ -87,6 +91,12 @@ or require anything in particular.
   never asks where you are: it reads the pattern of the stars, which is the
   same from everywhere on Earth.
 
+## App Store ratings
+
+CBDR may occasionally ask Apple to show its native rating prompt. Rating the
+app is optional. Apple handles any rating or review you choose to submit; CBDR
+does not receive your response or send your training data with the request.
+
 ## Feedback
 
 The feedback buttons open your own mail app with a pre-addressed draft.
@@ -96,4 +106,4 @@ Nothing is ever sent unless you press send yourself.
 
 sean.cbdr@gmail.com
 
-*Last updated: 11 September 2026.*
+*Last updated: 13 September 2026.*
