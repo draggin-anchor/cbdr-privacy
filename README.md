@@ -24,11 +24,15 @@ is exactly what it does hold and where it goes.
   participant's **name** and **score**, the questions they missed, and the
   answers they picked. It is stored on the hosting device until the instructor
   ends the test.
+- **If you build your own scenarios**: the scenarios you build — contact
+  positions, courses, speeds and any names you type — stay in the app's own
+  storage on this device and go with the app when you delete it.
 - **Tide and current predictions you save** in the Tides & Currents tool,
   kept for offline use.
-- **Quick Access**: the names of the last three activities you opened, so
-  they are one tap away on the home screen. Three activity names and nothing
-  else — no times, no counts, no session history.
+- **Resume**: the Resume row on the home screen names the last activity you
+  opened. Behind it the app keeps the names of the last three activities you
+  opened — three activity names and nothing else, no times, no counts and no
+  session history.
 
 All of this is kept in the app's own storage on your device and is removed
 when you delete the app.
@@ -90,6 +94,6 @@ Nothing is ever sent unless you press send yourself.
 
 ## Questions
 
-bowmanseanp@gmail.com
+sean.cbdr@gmail.com
 
-*Last updated: 7 September 2026.*
+*Last updated: 11 September 2026.*
