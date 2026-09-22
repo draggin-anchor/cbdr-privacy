@@ -1,109 +1,61 @@
 # CBDR Privacy Policy
 
-**Nothing you enter in CBDR is sent to the developer.** The app has no
-accounts, no analytics, no advertising, no tracking, and no server — the
-developer receives nothing at all. One feature uses the internet: the Tides &
-Currents lookup asks NOAA (US) and CHS (Canada) directly for public tide and
-current predictions, and is described in its own section below. All training features work offline on your device. An optional App Store
-rating is handled by Apple, as described below.
+CBDR has no accounts, advertising, tracking, analytics SDKs or developer-operated server. Training runs on your device. Tide and current lookups contact NOAA and CHS directly, and the map uses Apple Maps. You can choose to share records, open external links, send feedback email or submit an App Store rating. Those actions have the information flows described below.
 
-That is not the same as saying the app holds no personal information, so here
-is exactly what it does hold and where it goes.
+## What the app stores locally
 
-## What stays on your device
+Training settings: display options, scenario preferences and thresholds. Your score for the Rules of the Road test you are taking is held for that test; CBDR keeps no history of past solo sessions.
 
-- **Training settings** — display options, scenario preferences, thresholds.
-- **Your Rules of the Road test scores** for the test you are taking. CBDR
-  keeps no history of past sessions.
-- **Your practice record**, if you turn on practice tracking: one line for each
-  Rules of the Road question you have answered — which box it is in, the day you
-  last answered it, and how many times you have attempted and missed it. No
-  session scores and no record of individual answers. Turning tracking off stops
-  it; Reset Practice Progress removes it.
-- **An instructor's group-test session**, if you host one. This includes each
-  participant's **name** and **score**, the questions they missed, and the
-  answers they picked. It is stored on the hosting device until the instructor
-  ends the test.
-- **If you build your own scenarios**: the scenarios you build — contact
-  positions, courses, speeds and any names you type — stay in the app's own
-  storage on this device and go with the app when you delete it.
-- **Tide and current predictions you save** in the Tides & Currents tool,
-  kept for offline use.
-- **Resume**: the Resume row on the home screen names the last activity you
-  opened. Behind it the app keeps the names of the last three activities you
-  opened — three activity names and nothing else, no times, no counts and no
-  session history.
+If you turn on practice tracking: one line for each Rules of the Road question you have answered — which box it is in, the day you last answered it, and how many times you have attempted and missed it. No session scores and no record of individual answers. Turning tracking off stops recording; Reset Practice Progress removes the practice record.
 
-- **Rating prompt timing**: the date this timing record began, the last day
-  counted, a count capped at five days of use, and the date of the last rating
-  request. This only spaces out prompts; it records no activities or scores.
+If you host a group test: participant names, scores, missed questions, picked answers and app-leave counts are stored on the hosting device until you end the test. Group-test sharing and exports are described below.
 
-All of this is kept in the app's own storage on your device and is removed
-when you delete the app.
+If you build scenarios: contact positions, courses, speeds and any names you enter are stored in the app. Tide and current predictions you save are also kept for offline use.
 
-## The Tides & Currents lookup
+Resume keeps the names of the last three activities opened, with no times, counts or session scores. Rating prompt timing keeps a start date, last counted day, a count capped at five days of use and the date of the last request. It records no activities or scores.
 
-Looking up live tide and current predictions needs an internet connection —
-it is the only training tool in CBDR that does. Everything it fetches can be saved on
-your device, and saved data works offline like the rest of the app.
+## Tides, currents and maps
 
-A lookup is a direct request from your device to the government service that
-publishes the predictions: NOAA CO-OPS for US stations, and the Canadian
-Hydrographic Service (CHS, part of Fisheries and Oceans Canada) for Canadian
-stations. The request carries only the map area you selected, the date range,
-and the station you are asking about — no name, no account, no device
-identifier, and no analytics. There is no developer server in between, and
-the developer receives nothing.
+Live predictions require internet access. Your device requests station information and predictions directly from NOAA CO-OPS for US stations and the Canadian Hydrographic Service (CHS) for Canadian stations. Queries use the selected area, station, dates and prediction options. CBDR adds no participant name, account or device identifier. There is no developer server in between.
 
-The map is Apple's MapKit, so Apple's map service delivers the map tiles you
-view, as it does in any app showing an Apple map. CBDR never asks for your
-device's location — you pan the map to the water you care about by hand.
+Like other internet services, NOAA and CHS receive your IP address and request metadata and may keep access logs under their own policies. CBDR does not control those logs. Saved predictions work offline.
 
-## Group tests: name and score move between devices
+Apple's MapKit provides map content and handles map requests under Apple's privacy terms. CBDR never asks for your device's location; you select the map area yourself. Opening a source, licence or other external link also contacts that website under its policies.
 
-If you take part in a group test, CBDR asks for a name so the instructor's
-record identifies who sat the exam. When you finish, your name, score and
-answers are encoded into a QR code shown on your screen. The instructor scans
-it with their device's camera.
+## Group tests and sharing
 
-This is a direct, offline, device-to-device exchange that you initiate by
-showing the code. Nothing is uploaded, and no server is involved at any point.
+A group test asks for a name or an identifier your instructor accepts. CBDR does not verify your identity. When you finish, the result code contains your name, score, missed questions, picked answers and the number of times the app entered the background during the test. Showing the QR code lets the instructor receive that record directly, without a server.
 
-The instructor can then export the class record as a PDF or a spreadsheet,
-which will contain participants' names and scores. Once exported, that file is
-an ordinary document under the instructor's control, and how it is stored or
-shared is up to them.
+The app-leave count records background transitions, not what you did outside CBDR. Interruptions can have innocent causes. The count and result are advisory records, not proof of cheating or independently authenticated exam results. The instructor receives the count with your result and can include it in reports.
 
-**If you would rather not put your real name in a class record, enter your
-initials or any identifier your instructor accepts** — the app does not verify
-or require anything in particular.
+You can also copy or share codes. Anyone who receives a result code can read its contents. Copy uses the system clipboard; in CBDR 2.3 and later, code copies are restricted to the current device and expire after five minutes. Other software allowed to read the clipboard may still access them. Earlier versions use the normal clipboard, whose settings may allow copying across devices.
+
+The system share sheet sends information to the app, person or service you choose, which may use the internet or cloud storage. Scenario codes can contain any contact names you entered. Choose recipients accordingly.
+
+An instructor can export PDF or CSV class records containing names, scores, answers and app-leave counts. Ending a test clears the saved session in CBDR, but does not erase documents saved or shared elsewhere. App-generated temporary export files may remain until overwritten or removed by the operating system. The instructor or institution controls its copies and any required retention; contact them about a class record.
+
+## Storage, backups and deletion
+
+App storage may be included in device backups according to your Apple or computer backup settings. Deleting CBDR removes its local app storage, but does not erase existing backups, copied codes, shared records or exported documents. Restoring a backup may restore app data.
+
+Use Reset Practice Progress, End Test, or the scenario and saved-prediction deletion controls to remove the corresponding local records. Manage backups and exported copies separately through the services or devices that hold them.
 
 ## Microphone, speech and camera
 
-- **Microphone and speech recognition** are used only when you choose to speak
-  a contact report. Recognition runs on-device; the audio never leaves your
-  phone and is not retained after the report is scored.
-- **The camera** is used in two places, both started by you: scanning a QR
-  code shown on another participant's screen, and the Star Finder, which
-  looks at the night sky to name navigational stars. In both, frames are
-  processed on the device and immediately discarded — no image is ever
-  stored, and nothing the camera sees leaves the phone. The Star Finder
-  never asks where you are: it reads the pattern of the stars, which is the
-  same from everywhere on Earth.
+Microphone and speech recognition are used only when you choose to speak a contact report. Recognition runs on-device; the audio is not uploaded by CBDR and is not retained after the report is scored. Typed reports are available when on-device speech recognition is unavailable.
+
+The camera is used to scan QR codes and in the Star Finder. Both are started by you. Frames are processed on the device and discarded; no image is ever stored or uploaded by CBDR. The Star Finder never asks where you are: it identifies patterns of stars.
 
 ## App Store ratings
 
-CBDR may occasionally ask Apple to show its native rating prompt. Rating the
-app is optional. Apple handles any rating or review you choose to submit; CBDR
-does not receive your response or send your training data with the request.
+CBDR may ask Apple to show its native rating prompt. Rating is optional. Apple handles ratings and reviews; CBDR does not receive your response in the app or send your training data with the request. A review you publish can be visible to the developer and others on the App Store.
 
-## Feedback
+## Feedback and privacy questions
 
-The feedback buttons open your own mail app with a pre-addressed draft.
-Nothing is ever sent unless you press send yourself.
+Sean Bowman is personally responsible for CBDR and receives support at sean.cbdr@gmail.com. The feedback buttons open your mail app with a draft. Nothing is sent unless you send it. Sean and the mail providers then receive your email address, message and any context or attachments you choose to include, to respond to your request and investigate the issue.
 
-## Questions
+CBDR does not automatically send participant names, scores or class records to Sean. Do not include someone else's class record in support email unless you are authorized to share it.
 
-sean.cbdr@gmail.com
+Support emails currently have no fixed deletion schedule. Contact sean.cbdr@gmail.com to ask about access, correction or deletion of correspondence you supplied, or to raise a privacy concern. Records held only by an instructor or on your device are not available to the developer.
 
-*Last updated: 13 September 2026.*
+*Last updated: 22 September 2026.*
